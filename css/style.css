@@ -1,18 +1,32 @@
 *{
 	background-color: rgb(135,206,250,.5);
+	font-family: arial;
 
 	
+}
+#container{
+	font: courier;
 }
 
 h1{
 
 background-color: rgb(255,255,0,.25);
-font-family: arial;
+
 font-synthesis: bold;
 
 
 }
 
+p{
+	font-family: arial;
+	font-synthesis: bold;
+}
+
+li{
+	font-family: arial;
+}
+
 .desc{
+	font-family: arial;
 	font-synthesis: bold;
 }
