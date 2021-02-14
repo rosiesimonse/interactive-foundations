@@ -1,4 +1,8 @@
 
+body{
+	ackground-color: rgb(173,216,230,);
+}
+
 #container{
 	font: courier;
 }
@@ -6,17 +10,18 @@
 h1{
 
 background-color: rgb(255,255,0,.5);
-font: arial;
 
+font-family: arial;
 font-synthesis: bold;
 
 
 }
 
 p{
-	background-color: rgb(173,216,230,);
-	font-family: arial;
+	b
 	font-synthesis: bold;
+	font-family: arial;
+	
 }
 
 li{
@@ -24,6 +29,7 @@ li{
 }
 
 .desc{
-	font-family: arial;
 	font-synthesis: bold;
+	font-family: arial;
+	
 }
