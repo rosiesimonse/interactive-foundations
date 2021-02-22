@@ -4,7 +4,9 @@
 }
 
 body {
-	background: white;	
+	background: white;
+    font-family: Georgia;
+    font-size:14;	
 }
 
 /* navigation */
