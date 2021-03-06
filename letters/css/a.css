@@ -15,10 +15,17 @@ nav {
 	padding: 30px;
 }
 
+
+    
 /* left side */
+.left-half{
+    width: 500px;
+    height:5000px;
+    background:purple;
+}
 
 #left-circle {
-        position: absolute;
+        position: sticky;
     	top: 250px;
     	left: 200px; 
         transform: translate(-50%, -50%); 
@@ -31,9 +38,9 @@ nav {
 
 #left-counter {
 
-	 position: absolute;
-    	top: 100px;
-    	left: 63px; 
+	 position: sticky;
+    	top: 250px;
+        left: 212px; 
         transform: translate(-50%, -50%); 
         height: 150px; 
         width: 75px; 
@@ -43,6 +50,9 @@ nav {
 
 
 }
+
+
+
 
 #right-circle{
 	    position: absolute;
@@ -76,5 +86,6 @@ nav {
 top: 125px;
     left: 325px;
 }
+
 
 }

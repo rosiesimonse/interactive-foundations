@@ -7,7 +7,6 @@ body {
 	background: white;	
     font-family: helvetica;
     font-size:14;
-
 }
 
 /* navigation */
@@ -16,11 +15,14 @@ nav {
 	padding: 30px;
 }
 
+.b{
+    padding 60px;
+}
 
 /* left side */
 
 #left-circle {
-        position: fixed;
+        position: absolute;
     	top: 250px;
     	left: 200px; 
         transform: translate(-50%, -50%); 
@@ -33,7 +35,7 @@ nav {
 
 #left-counter {
 
-	 position: fixed;
+	 position: absolute;
     	top: 100px;
     	left: 63px; 
         transform: translate(-50%, -50%); 
@@ -47,9 +49,9 @@ nav {
 }
 
 #right-circle{
-        position: absolute;
-        top: 225px;
-        left: 300px; 
+	    position: absolute;
+    	top: 225px;
+    	left: 300px; 
         transform: translate(-50%, -50%); 
         height: 200px; 
         width: 100px; 
@@ -70,15 +72,11 @@ nav {
         
         background-color: white;
         }
-#right-split-circle {
-    width: 250px;
-    height: 75px;
+#right-stem {
+    width: 25px;
+    height: 240px;
   background: black;
   position: absolute;
-    top: 190px;
-    left: 250px;
-    background-color: white;
-
-}       
-
+top: 23px;
+    left: 150px;
 }

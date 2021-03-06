@@ -1,6 +1,12 @@
+*{
+	background-color: rgb(173,216,230,);
+	margin: auto;
+	padding-top: 20px;
+	border: blue: 1px;
+}
 
 body{
-	ackground-color: rgb(173,216,230,);
+	background-color: rgb(173,216,230,);
 }
 
 #container{
