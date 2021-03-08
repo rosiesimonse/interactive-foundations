@@ -1,0 +1,56 @@
+
+
+*{ 
+    margin:0px;
+    padding:40px;
+    font: helvetica;
+
+}
+body {
+    background: black; 
+}
+
+/* navigation */
+
+nav {
+        font-family: helvetica;
+    font-variant: unicase;
+    position: fixed;
+    color: white;
+
+}
+
+
+#white-bar{
+     position: fixed;
+    top: 200px;
+    left: 0px;
+    width: 100vw;
+    height: 200px;
+    background: white;
+}
+
+/* stage */
+
+#showcase {
+    padding: 50px;
+    margin-top:700px;
+    width: 100px;
+    height: 1000px;
+    margin: auto;
+    overflow: visible;
+    position: relative;
+    top: calc(50vh - 400px);
+}
+
+#black-bar {
+    position: absolute;
+    top: 10000px;
+    left: 0px;
+    width: 100px
+    height: 2000px;
+    background: black;
+}
+
+/* images */
+
