@@ -438,6 +438,10 @@ position: fixed;
 
 }
 
+.s-2:hover{
+    transform:scale(10);
+}
+
 #s-2-right-top-circle{
      position: absolute;
     top: 2148px;
@@ -485,6 +489,10 @@ position: fixed;
     background-color: white;
 }
 
+#c-2-right-circle:hover{
+transform:translate(50px);
+background-color:blue;
+}
 #c-2-right-circle{
            position: absolute;
     top: 2435px;
@@ -517,6 +525,11 @@ position: fixed;
     background-color: white;
 
 }    
+
+#r-2-right-circle:hover{
+    transform:skew(20deg);
+}
+
 #r-2-right-circle{
         position: absolute;
     top: 2234px;
@@ -538,6 +551,42 @@ position: fixed;
     border-radius: 0px 150px 0 0px;
     background-color: white
 }
+
+#o-2-right-circle:hover {
+background-color: yellow;
+    }
+
+#o-2-right-counter:hover {
+background-color: yellow;
+    }
+
+#o-2-right-circle{
+position: absolute;
+    top: 2675px;
+    left: 1023px;
+    transform: translate(-50%, -50%);
+    height: 200px;
+    width: 100px;
+    border-radius: 0 150px 150px 0;
+    background-color: black;
+}
+
+#o-2-right-counter {
+
+position: absolute;
+    top: 2675px;
+    left: 1010px;
+    transform: translate(-50%, -50%);
+    height: 150px;
+    width: 75px;
+    border-radius: 0 150px 150px 0;
+    background-color: white;
+}
+
+#l-3-right-circle:hover{
+transform:skew(30deg);
+}
+
 #l-3-right-circle{
        position: absolute;
     top: 2510px;
@@ -558,6 +607,10 @@ position: fixed;
     width: 42px;
     border-radius: 0px 0px 150px 0px;
     background-color: white
+}
+
+#l-4-right-circle:hover{
+background-color:pink;
 }
 
 #l-4-right-circle{
