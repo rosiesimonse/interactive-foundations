@@ -1,4 +1,6 @@
 *{
+	
+	
 	background: rgb(131,58,180);
 background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
 	
@@ -48,6 +50,7 @@ h1{
 color: white;
 font-family: 'Yeseva One', cursive;
 font-synthesis: bold;
+font-size: 38px;
 
 
 
@@ -67,14 +70,16 @@ h3{
 color: white;
 font-family: 'Yeseva One', cursive;
 font-synthesis: bold;
-font-size: 30px;
+font-size: 38px;
 
 
 
 }
 
 p{
-	color:rgba(4,96,204,1) 100%;
+
+	font-size: 22px;
+	color:lightblue;
 	background: rgb(131,58,180);
 background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
 	font-synthesis: bold;
@@ -82,34 +87,48 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
 	
 }
 
+h4{
+color: white;
+font-family: 'Yeseva One', cursive;
+font-synthesis: bold;
+font-size: 38px;}
+
 li{
-	color:rgba(4,96,204,1) 100%;
+	color:lightblue;
 	padding: 10px;
 	font-family: 'Roboto', sans-serif;
+	font-size: 22px;
 }
 
 a:link {
 	font-family: 'Roboto', sans-serif;
-  color: rgba(4,96,204,1) 100%;
+	color:lightblue;
+	font-size: 22px;
+  
+  
 }
 
 a:visited {
 	font-family: 'Roboto', sans-serif;
-  color: rgba(4,96,204,1) 100%;
+	color:lightblue;
+  
+  
 }
 
 /* mouse over link */
 a:hover {
 	font-family: 'Roboto', sans-serif;
-  color: rgba(4,96,204,1) 100%;
-  font-weight: medium;
   font-style: italic;
+  font-weight: medium;
+  color:darkblue;
+  
 
 }
 
 .desc{
-	color: rgba(4,96,204,1) 100%;
+	color:lightblue;
 	font-synthesis: bold;
 	font-family: 'Roboto', sans-serif;
+	font-size: 22px;
 	
 }
