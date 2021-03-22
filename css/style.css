@@ -1,41 +1,115 @@
 *{
-	background-color: rgb(173,216,230,);
-	margin: auto;
-	padding-top: 20px;
-	border: blue: 1px;
+	background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+	
+	
+	
+}
+
+@font-face{
+	font-family: "YE-Display";
+	src: url("../css/Typeface/YE-Display.woff") format("woff");
+	src:url("../css/Typeface/YE-Display.woff2") format("woff2");
 }
 
 body{
-	background-color: rgb(173,216,230,);
+background: rgb(213,134,169);
+background: linear-gradient(0deg, rgba(213,134,169,1) 0%, rgba(4,96,204,1) 100%);
+
+
+}
+
+video{
+	padding-top: 20px;
+	margin-right: 20px;
+	width:400px; 
+	height: auto;
+	display:block;
+	float:left;
+	padding: 10px;
+	mix-blend-mode: hard-light;
+	opacity: 70%;
 }
 
 #container{
-	font: courier;
+	padding-top: 20px;
+	width: 420px; 
+	height:750px;
+	/*background:  rgba(131,58,180,1);
+	*/
+
 }
 
 h1{
 
-background-color: rgb(255,255,0,.5);
+	padding-top: 20px;
 
-font-family: arial;
+
+color: white;
+font-family: 'Yeseva One', cursive;
 font-synthesis: bold;
+
+
+
+}
+
+h2{
+	
+color: white;
+font-family: 'Yeseva One', cursive;
+font-synthesis: bold;
+font-size: 50px;
+
+
+}
+h3{
+	
+color: white;
+font-family: 'Yeseva One', cursive;
+font-synthesis: bold;
+font-size: 30px;
+
 
 
 }
 
 p{
-	b
+	color:rgba(4,96,204,1) 100%;
+	background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
 	font-synthesis: bold;
-	font-family: arial;
+	font-family: 'Roboto', sans-serif;
 	
 }
 
 li{
-	font-family: arial;
+	color:rgba(4,96,204,1) 100%;
+	padding: 10px;
+	font-family: 'Roboto', sans-serif;
+}
+
+a:link {
+	font-family: 'Roboto', sans-serif;
+  color: rgba(4,96,204,1) 100%;
+}
+
+a:visited {
+	font-family: 'Roboto', sans-serif;
+  color: rgba(4,96,204,1) 100%;
+}
+
+/* mouse over link */
+a:hover {
+	font-family: 'Roboto', sans-serif;
+  color: rgba(4,96,204,1) 100%;
+  font-weight: medium;
+  font-style: italic;
+
 }
 
 .desc{
+	color: rgba(4,96,204,1) 100%;
 	font-synthesis: bold;
-	font-family: arial;
+	font-family: 'Roboto', sans-serif;
 	
 }
