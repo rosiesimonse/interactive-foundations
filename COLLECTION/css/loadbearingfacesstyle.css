@@ -1,0 +1,129 @@
+
+* {
+  box-sizing: border-box;
+
+}
+
+@font-face{
+  font-family: 'Fira Sans Condensed', sans-serif;
+
+
+}
+/* Create two equal columns that floats next to each other */
+.column {
+  font-family: 'Fira Sans Condensed', sans-serif;
+  float: left;
+  width: 220px;
+  padding: 20px;
+  height: 100vh; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#overlay-two{
+  
+  position: absolute;
+  top: 70%;
+  left: 8px;
+  font-size: 150px;
+  color: white;
+
+  }
+
+#text{
+  font-family: 'Fira Sans Condensed', sans-serif;
+  position: absolute;
+  top: 70%;
+  left: 8px;
+  font-size: 150px;
+  color: black;
+  /*transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);*/
+}
+
+
+
+
+#text:hover{
+  background-image: url("../hoverstate.jpg");
+  top: 8px;
+  left: 8px;
+  height: 1000px;
+  width: 1780px;
+  font-size:100px;
+  color: blue;
+  text-transform: 700px;
+
+}
+
+
+
+a:link{
+  font-size: 28px;
+font-weight:thin 100;
+font-family: 'Fira Sans Condensed', sans-serif;
+color:black;
+
+} 
+
+a:visited {
+  font-size: 28px;
+font-weight:thin 100;
+font-family: 'Fira Sans Condensed', sans-serif;
+color:black;
+
+}
+
+a:hover{
+  font-size:22px;
+font-family: 'Fira Sans Condensed', sans-serif;
+font-weight: bold 400;
+color:white;
+}
+
+#stoic-man:hover{
+
+	background-image: url("../1thestoicman/images/sliverofstoic220.jpg");
+	background-repeat: no-repeat;
+	
+}
+
+#man-on-the-verge:hover{
+  background-image: url("../2 man on the verge/images/sliverofsteady.jpg");
+  background-repeat: no-repeat;
+}
+
+#flexing:hover{
+  background-image: url("../3 flexing/images/sliverflexing.jpg");
+  background-repeat: no-repeat;
+}
+
+#judgmental:hover{
+  background-image: url("../4 judgmental/images/sliverjudgmental.jpg");
+  background-repeat: no-repeat;
+}
+
+#mantra-men:hover{
+  background-image: url("../5 mantra men/images/slivermantramen.jpg");
+  background-repeat: no-repeat;
+}
+
+#prepared:hover{
+  background-image: url("../6 prepared lady/images/sliverpreparedlady.jpg");
+  background-repeat: no-repeat;
+}
+
+#angry:hover{
+  background-image: url("../7 wrathful man/images/sliverwrathfulman.jpg");
+  background-repeat: no-repeat;
+}
+
+#gasp:hover{
+    background-image: url("../8 shocked lady/images/slivershockedlady.jpg");
+  background-repeat: no-repeat;
+}
