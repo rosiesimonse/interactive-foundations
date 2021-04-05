@@ -1,0 +1,31 @@
+body, html {
+  height: 100%;
+}
+
+/*.bg {
+  /* The image used */
+  /*background-image: url("../images/screenshotstoic.png");
+  width: 1780px;
+  height: 5000px;
+
+
+
+  /* Full height */
+  /*height: 100%;
+
+  /* Center and scale the image nicely */
+ /* background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+.image{
+	width: 2080px;
+	height:auto;
+	object-fit: contain
+}
+
+
+
+
+}
