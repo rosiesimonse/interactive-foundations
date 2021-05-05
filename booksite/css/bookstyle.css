@@ -1,0 +1,160 @@
+
+* {
+  box-sizing: border-box;
+
+}
+
+@font-face{
+  font-family: ff-ernestine-pro, serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+
+}
+/* Create two equal columns that floats next to each other */
+.column-1 {
+  
+float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px;
+
+
+  
+   /* Should be removed. Only for demonstration */
+}
+
+.column-2{
+ 
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px;
+}
+
+
+
+#upper-left { 
+   color:red;
+  writing-mode: vertical-lr; 
+ vertical-align: baseline;
+}
+
+#lower-left { 
+  color:red;
+  writing-mode: vertical-lr; 
+ vertical-align: baseline;
+ 
+
+}
+
+#lower-right{
+  color: blue;
+}
+
+
+/* Clear floats after the columns */
+.row-1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+.row-2:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h2{
+  font-size: 400px;
+  mix-blend-mode: screen;
+
+font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+
+
+
+
+
+
+#book{
+  font-family: 'Fira Sans Condensed', sans-serif;
+  position: fixed;
+  top: 20px;
+  left: 80%;
+  
+  color: blue;
+  /*transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);*/
+}
+
+#site{
+  writing-mode: vertical-lr;
+  position: fixed;
+  top: 70%;
+  left: 20px;
+  
+  color: red;
+
+  }
+
+h1{
+font-size: 28px;
+font-weight:thin 100;
+font-family: 'Fira Sans Condensed', sans-serif;
+c
+}
+
+
+
+
+
+
+
+
+.overlay-2{
+  position: fixed;
+  top: 0px;
+  left: 0%;
+  font-size: 150px;
+}
+
+
+.color{
+  float: left;
+  width: 896px;
+  padding: 0px;
+  height: 1100px;
+  background-blend-mode: screen;
+
+}
+
+#red{
+  opacity: 40%;
+  background-color: red;
+  mix-blend-mode: screen;
+}
+
+#blue{
+  opacity: 40%;
+  background-color: blue;
+  mix-blend-mode: screen;
+}
+
+
+
+
+
+
+
+
+
+
+
+
